@@ -1,0 +1,103 @@
+
+.container {
+  margin-top: 200px;
+}
+
+.navbar {
+  background-color: #0d80d3;
+}
+
+.box {
+  border-spacing: 50px;
+  border: 7px outset #0c0d0d;
+  background-color: #f6f9fc;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.visualization {
+  width: fit-content;
+  height: fit-content;
+  border: 5px outset rgb#0c0d0d;
+  background-color: #f6f9fc;
+}
+
+.header {
+  text-align: center;
+  color:#0d80d3;
+  text-shadow: black 2px 2px 2px;
+}
+
+.preview {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.preview:hover {
+  border: 2px outset;
+  border-color: rgb(0, 0, 0);
+}
+
+.comparisons {
+  width: fit-content;
+  height: fit-content;
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #f6f9fc;
+  margin: 0 auto;
+}
+
+.compare {
+  max-width: 100%;
+  max-height: auto;
+  padding: 15px;
+}
+
+.compare:hover {
+  border: 3px outset;
+  border-color: rgb(167, 197, 199);
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.compare_headers {
+  text-align: center;
+  color: rgb(134, 191, 228);
+  text-shadow: 2px 2px 2px black;
+}
+
+.navbar-brand {
+  color: black;
+  padding-top: 10px
+  
+
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+
+.dataframe {
+  border: 5px outset rgb(167, 197, 199);
+  background-color: #e3f2fd;
+}
+
+tbody:nth-child(even) {
+  background: #e3f2fd;
+}
+
+tr:nth-child(odd) {
+  background: #b5c2ca;
+}
+
+.data_p {
+  text-align: center;
+}
+
+.data_header {
+  background-color: #e3f2fd;
+  margin-bottom: 1rem;
+  border: 5px outset rgb(167, 197, 199);
+}
