@@ -50,12 +50,12 @@
 .compare {
   max-width: 100%;
   max-height: auto;
-  padding: 15px;
+  padding: 20px;
 }
 
 .compare:hover {
   border: 3px outset;
-  border-color: rgb(167, 197, 199);
+  border-color: #000000
 }
 
 .navbar-nav {
@@ -64,8 +64,8 @@
 
 .compare_headers {
   text-align: center;
-  color: rgb(134, 191, 228);
-  text-shadow: 2px 2px 2px black;
+  color: #0d80d3;
+ 
 }
 
 .navbar-brand {
